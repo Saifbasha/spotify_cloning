@@ -1,0 +1,93 @@
+@import url(footer.css);
+#banner1{
+    width: 100%;
+    height: 75vh;
+    /* border: 2px solid blue; */
+    background-image:linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+}
+#banner1 p{
+   padding-top: 180px;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    font-weight: bolder;
+}
+#banner2{
+    width: 100%;
+    height: auto;
+    /* border: 5px solid red; */
+}
+#banner2 p{
+    text-align: center;
+    font-size: 40px;
+    padding: 80px 0px;
+    font-weight: bolder;
+}
+#banner2 p+div{
+    /* border: 2px solid black; */
+    width: 80%;
+    margin: auto;
+    padding-bottom: 80px;
+}
+#banner2 p+div details{
+   
+    /* border: 2px solid black; */
+    cursor: pointer;
+    list-style: none;
+}
+#banner2 p+div details summary:hover{
+    background-color: rgb(0, 0,0,0.1);
+}
+#banner2 p+div details summary{
+    font-weight: bolder;
+    padding: 25px 50px;
+}
+#banner2 p+div details ul{
+    font-size: 15px;
+    list-style: none;
+}
+#banner2 p+div details ol{
+    padding-left: 30px;
+}
+#banner2 p+div details  li{
+    font-size: 16px;
+    font-weight:600;
+}
+#banner2 p+div details ol li span{
+    color: green;
+}
+.last{
+    list-style: none;
+}
+#banner2 p+div hr{
+    width: 100%;
+}
+#banner3{
+    width: 100%;
+    height: 75vh;
+    /* border: 2px solid black; */
+    background-image:url(./images/bubbles-dktp.svg), linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#banner3 h1{
+    font-size: 80px;
+    color: #fff;
+    line-height: 150px;
+}
+#banner3 button{
+    padding: 20px 50px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+#banner3 button:hover{
+    padding: 25px 60px;
+}
